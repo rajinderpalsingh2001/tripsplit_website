@@ -1,0 +1,30 @@
+{
+  "hosting": {
+    "site": "tripsplit-main",
+    "public": "dist/tripsplit-web/browser",
+    "appAssociation": "AUTO",
+    "headers": [
+      {
+        "source": "/.well-known/assetlinks.json",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/.well-known/assetlinks.json",
+        "destination": "/.well-known/assetlinks.json"
+      },
+      { "source": "**", "destination": "/index.html" }
+    ]
+  }
+}

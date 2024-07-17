@@ -1,0 +1,13 @@
+<div class="delete-account-steps">
+    <h2 class="title">Delete Account</h2>
+    
+    <h3 class="subtitle">Steps to Delete Your Account</h3>
+    
+    <div *ngFor="let step of steps; let i = index" class="step-container">
+        <span class="step-number">{{i + 1}}. </span>
+        <span class="step-description" [innerHTML]="step"></span>
+    </div>
+  
+    <p class="note">{{note}}</p>
+  </div>
+  

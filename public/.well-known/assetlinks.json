@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.bydeveloper.tripsplit",
+        "sha256_cert_fingerprints": [
+          "41:EF:B8:05:8E:77:82:9B:E6:00:A9:ED:D9:1B:AA:44:8E:51:06:C5:B6:EB:75:80:A7:74:4E:39:27:26:A5:02"
+        ]
+      }
+    }
+  ]

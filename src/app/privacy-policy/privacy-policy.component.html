@@ -1,0 +1,18 @@
+<div class="privacy-policy-container">
+    <h2 class="policy-title">Privacy Policy</h2>
+    <p class="policy-date">Last updated: {{ todayDate }}</p>
+  
+    <div *ngFor="let section of sections" class="section-container">
+      <h3 class="section-title">{{ section.title }}</h3>
+      <p class="section-data">{{ section.data }}</p>
+    </div>
+  
+    <p class="contact-info">
+      If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices,
+      please contact us at <a href="mailto:tripsplitofficial@gmail.com">tripsplitofficial&#64;gmail.com</a>
+      <br/><br/>
+      By using the application, you acknowledge that you have read and understood this Privacy Policy and agree to the
+      collection, use, and disclosure of your information as described herein.
+    </p>
+  </div>
+  

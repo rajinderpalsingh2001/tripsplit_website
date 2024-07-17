@@ -1,0 +1,33 @@
+.privacy-policy-container {
+    padding: 16px;
+  }
+  
+  .policy-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .policy-date {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 16px;
+  }
+  
+  .section-container {
+    margin-top: 16px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .section-data {
+    font-size: 16px;
+    white-space: pre-line; /* Preserves newline characters */
+  }
+  
+  .contact-info {
+    margin-top: 16px;
+  }
+  
