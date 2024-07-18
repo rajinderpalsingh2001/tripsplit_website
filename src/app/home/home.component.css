@@ -5,11 +5,14 @@
   align-items: center;
   height: 100vh;
   text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .logo img {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
+  padding: 0 10px 0 10px;
 }
 
 h1 {
@@ -19,13 +22,43 @@ h1 {
   color: #3f51b5;
 }
 
+.iframe-container {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 300px;  
+  border-radius: 30px;
+  background-color: #f5f5f5;
+  border-top: 14px solid black;
+  border-bottom: 14px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (min-width: 320px) {
+  .iframe-container {
+    max-width: 300px;
+  }
+}
+
+.iframe-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;  
+  /* transform: scale(0.8); */
+  /* transform-origin: 0 0; */
+}
 
 .button-container {
   align-items: center;
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 20px 0 0 0;
+  padding: 0 0 20px 0;
 }
 
 .spacer {
@@ -59,29 +92,4 @@ button[color="accent"] {
 
 button[color="accent"]:hover {
   background-color: #c51162;
-}
-
-.screenshot-container {
-  position: relative;
-  width: 200px;
-  height: 400px;
-  border-radius: 20px;
-  background-color: #f5f5f5;
-  padding: 6px;
-  border-top: 8px solid black;
-  border-bottom: 8px solid black;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
-
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.screenshot-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 20px;
 }
