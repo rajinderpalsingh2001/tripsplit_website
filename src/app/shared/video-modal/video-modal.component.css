@@ -1,0 +1,12 @@
+.video-frame{
+    border-radius: 30px !important;
+    height: 100%;
+}
+
+mat-dialog-actions{
+    padding: 20px !important;
+}
+
+.primary-button{
+    padding: 15px 20px !important;
+}

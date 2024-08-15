@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="heading text-center">
+        <h1>What our users say?</h1>
+    </div>
+
+    <ngx-slick-carousel class="carousel" 
+        #slickModal="slick-carousel" 
+        [config]="slideConfig"
+        (init)="slickInit($event)"
+        (breakpoint)="breakpoint($event)"
+        (afterChange)="afterChange($event)"
+        (beforeChange)="beforeChange($event)">
+        <div ngxSlickItem class="slide" *ngFor="let review of reviews">
+            <div class="review-card">
+                <h2>{{review.rating}}/5</h2>
+                <div class="stars-container">
+                    <span *ngFor="let filled of generateRatingStars(review.rating); let i = index">
+                        <i class="star" [class.filled]="filled">★</i>
+                    </span>
+                </div>
+                <p>{{ review.text }}</p>
+                <span class="user-name">- {{ review.user }}</span>
+                
+            </div>
+        </div>
+    </ngx-slick-carousel>    
+</div>

@@ -1,0 +1,36 @@
+.navbar {
+    background-color: var(--primary-white) !important;
+    border-bottom: 1px solid grey;
+    height: 70px;
+  }
+  
+  .navbar-brand img {
+    height: 35px;
+  }
+  
+  .navbar-brand {
+    border: none !important;
+    margin-left: 20px;
+    padding: 10px;
+    color: var(--primary-blue);
+    font-weight: 500;
+    font-style: italic;
+    line-height: 35px;
+    font-size: 24px;
+  }
+  
+  .action-btn {    
+    color: var(--primary-blue) !important;
+    background-color: transparent !important;
+    box-shadow: none !important;    
+    
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .right-align{
+    margin-left: 0 auto !important;
+  }
+  

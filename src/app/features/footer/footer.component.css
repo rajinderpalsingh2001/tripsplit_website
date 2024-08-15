@@ -1,0 +1,15 @@
+footer{
+    background-color: var(--primary-blue-light);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px;
+    text-align: center !important;    
+}
+h4{
+    font-weight: 500;
+}
+a{
+    color: black;
+    display: block;
+    text-decoration: none !important;
+}

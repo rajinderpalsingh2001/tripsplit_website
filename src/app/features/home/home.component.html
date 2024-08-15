@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="main">
+        <!-- <div style="flex: 10;">
+            <div class="try-before-install-container floating">
+                <h1>Don't want to Install?</h1>
+                <button mat-raised-button color="primary" (click)="redirectToDemoWebApp()">Try Demo</button>
+            </div>
+        </div> -->
+        <div class="text-center iframe-wrapper">
+            <div #iframeContainer class="iframe-container">
+                <iframe
+                src="https://demo.tripsplit.in"
+                frameborder="0"
+                class="iframe-content"
+                ></iframe>
+            </div>
+        </div>
+        
+        <div class="button-container">
+            <button class="primary-button" mat-raised-button color="primary" (click)="openVideoModal()">
+                <mat-icon>apple</mat-icon> IOS
+              </button>
+              &nbsp;
+              &nbsp;
+            <button class="primary-button" mat-raised-button color="primary" (click)="redirectToPlayStore()">
+              <mat-icon>android</mat-icon> Android
+            </button>
+            
+        </div>
+    </div>
+    <app-why-to-choose/>
+    <app-reviews/>
+    
+</div>
+<app-footer/>
