@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-delete-account-steps',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './delete-account-steps.component.html',
   styleUrl: './delete-account-steps.component.css'
 })

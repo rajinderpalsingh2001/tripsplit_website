@@ -23,6 +23,10 @@ import { TripPdfReportComponent } from './trip-pdf-report/trip-pdf-report.compon
 
 
 @NgModule({
+  imports: [
+    SharedModule,
+    CommonModule,
+  ],
   declarations:[
     AddExpenseComponent,
     AddMembersComponent,
@@ -42,9 +46,5 @@ import { TripPdfReportComponent } from './trip-pdf-report/trip-pdf-report.compon
     TripMembersComponent,
     TripPdfReportComponent
   ],
-  imports: [
-    CommonModule,
-    SharedModule
-  ]
 })
 export class GuideModule {}

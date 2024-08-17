@@ -1,11 +1,7 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @Component({
   selector: 'app-reviews',
-  standalone: true,
-  imports: [SlickCarouselModule, CommonModule],
   templateUrl: './reviews.component.html',
   styleUrls: ['./reviews.component.css']
 })

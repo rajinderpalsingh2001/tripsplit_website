@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { DeleteAccountStepsComponent } from './delete-account-steps/delete-account-steps.component';
 import { HomeComponent } from './features/home/home.component';
 import { PrivacyPolicyComponent } from './features/privacy-policy/privacy-policy.component';
 import { ContactUsComponent } from './features/contact-us/contact-us.component';
@@ -21,6 +20,7 @@ import { LockUnlockTripComponent } from './guide/lock-unlock-trip/lock-unlock-tr
 import { SettleUpComponent } from './guide/settle-up/settle-up.component';
 import { TripPdfReportComponent } from './guide/trip-pdf-report/trip-pdf-report.component';
 import { AnalyticsComponent } from './guide/analytics/analytics.component';
+import { DeleteAccountStepsComponent } from './features/delete-account-steps/delete-account-steps.component';
 
 export const routes: Routes = [
     {component: HomeComponent, path:'', title: "TripSplit"},

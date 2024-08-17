@@ -22,8 +22,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatIconModule,
   ],
   exports: [
-    MobileFrameComponent,
     NavbarComponent,
+    MobileFrameComponent,
     VideoModalComponent
   ]
 })

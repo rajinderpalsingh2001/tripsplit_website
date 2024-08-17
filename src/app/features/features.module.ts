@@ -8,20 +8,28 @@ import { HowToUseComponent } from './how-to-use/how-to-use.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { WhyToChooseComponent } from './why-to-choose/why-to-choose.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { DeleteAccountStepsComponent } from './delete-account-steps/delete-account-steps.component';
 
 @NgModule({
   declarations: [
+    HomeComponent,
     ContactUsComponent,
     FaqComponent,
     FooterComponent,
-    HomeComponent,
     HowToUseComponent,
     PrivacyPolicyComponent,
     ReviewsComponent,
     WhyToChooseComponent,
+    DeleteAccountStepsComponent
   ],
   imports: [
     CommonModule,
+    SlickCarouselModule,
+    MatButtonModule,
+    MatIconModule,
   ]
 })
 export class FeaturesModule { }
