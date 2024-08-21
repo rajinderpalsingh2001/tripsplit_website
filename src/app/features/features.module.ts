@@ -17,6 +17,7 @@ import { DownloadAndroidBtnComponent } from './home/components/download-android-
 import { MobileDemoFrameComponent } from './home/components/mobile-demo-frame/mobile-demo-frame.component';
 import { RatingInfoComponent } from './home/components/rating-info/rating-info.component';
 import { SharedModule } from '../shared/shared.module';
+import { TitleTextComponent } from './home/components/title-text/title-text.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { SharedModule } from '../shared/shared.module';
     DownloadAndroidBtnComponent,
     MobileDemoFrameComponent,
     RatingInfoComponent,
+    TitleTextComponent
   ],
   imports: [
     CommonModule,
