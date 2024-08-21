@@ -12,6 +12,11 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { DeleteAccountStepsComponent } from './delete-account-steps/delete-account-steps.component';
+import { DownloadIosBtnComponent } from './home/components/download-ios-btn/download-ios-btn.component';
+import { DownloadAndroidBtnComponent } from './home/components/download-android-btn/download-android-btn.component';
+import { MobileDemoFrameComponent } from './home/components/mobile-demo-frame/mobile-demo-frame.component';
+import { RatingInfoComponent } from './home/components/rating-info/rating-info.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -23,12 +28,17 @@ import { DeleteAccountStepsComponent } from './delete-account-steps/delete-accou
     PrivacyPolicyComponent,
     ReviewsComponent,
     WhyToChooseComponent,
-    DeleteAccountStepsComponent
+    DeleteAccountStepsComponent,
+    DownloadIosBtnComponent,
+    DownloadAndroidBtnComponent,
+    MobileDemoFrameComponent,
+    RatingInfoComponent,
   ],
   imports: [
     CommonModule,
     SlickCarouselModule,
     MatButtonModule,
+    SharedModule,
     MatIconModule,
   ]
 })

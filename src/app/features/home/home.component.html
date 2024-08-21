@@ -1,35 +1,24 @@
-<div class="container">
-    <div class="main">
-        <!-- <div style="flex: 10;">
-            <div class="try-before-install-container floating">
-                <h1>Don't want to Install?</h1>
-                <button mat-raised-button color="primary" (click)="redirectToDemoWebApp()">Try Demo</button>
+<div class="full-height">
+    <app-navbar/>
+    <div class="full-screen-section">
+        <div class="container">
+            <div class="title-text-container mb-5">
+                <p>
+                    Splitting Expenses with TripSplit means
+                </p>
+                <span id="typewriter-word"></span>
+            </div>            
+            <div class="button-container mb-5">
+                <app-download-ios-btn></app-download-ios-btn>
+                &nbsp;&nbsp;
+                <app-download-android-btn></app-download-android-btn>
             </div>
-        </div> -->
-        <div class="text-center iframe-wrapper">
-            <div #iframeContainer class="iframe-container">
-                <iframe
-                src="https://demo.tripsplit.in"
-                frameborder="0"
-                class="iframe-content"
-                ></iframe>
-            </div>
-        </div>
-        
-        <div class="button-container">
-            <button class="primary-button" mat-raised-button color="primary" (click)="openVideoModal()">
-                <mat-icon>apple</mat-icon> IOS
-              </button>
-              &nbsp;
-              &nbsp;
-            <button class="primary-button" mat-raised-button color="primary" (click)="redirectToPlayStore()">
-              <mat-icon>android</mat-icon> Android
-            </button>
-            
+            <app-rating-info/>
         </div>
     </div>
-    <app-why-to-choose/>
-    <app-reviews/>
-    
 </div>
-<app-footer/>
+<div class="container">
+    <app-why-to-choose></app-why-to-choose>
+    <app-reviews></app-reviews>
+</div>
+<app-footer></app-footer>

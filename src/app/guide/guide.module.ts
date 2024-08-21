@@ -19,6 +19,7 @@ import { SettleUpComponent } from './settle-up/settle-up.component';
 import { TrackExpenseChangesComponent } from './track-expense-changes/track-expense-changes.component';
 import { TripMembersComponent } from './trip-members/trip-members.component';
 import { TripPdfReportComponent } from './trip-pdf-report/trip-pdf-report.component';
+import { GuideNavComponent } from './guide-nav/guide-nav.component';
 
 
 
@@ -44,7 +45,8 @@ import { TripPdfReportComponent } from './trip-pdf-report/trip-pdf-report.compon
     SettleUpComponent,
     TrackExpenseChangesComponent,
     TripMembersComponent,
-    TripPdfReportComponent
+    TripPdfReportComponent,
+    GuideNavComponent
   ],
 })
 export class GuideModule {}
